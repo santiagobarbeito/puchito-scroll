@@ -41,7 +41,7 @@ function setup() {
   camera(camX, camY, camZ, centerX, centerY, centerZ, upX, upY, upZ);
 
   // Inicializar las letras con sus velocidades de rotación
-  let text = "PUCHITO";
+  let text = "PUCHITO.COM.AR";
   for (let i = 0; i < text.length; i++) {
     letters.push({
       char: text[i],
